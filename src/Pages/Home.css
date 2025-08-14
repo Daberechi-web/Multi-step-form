@@ -1,0 +1,36 @@
+
+
+
+
+.home-container {
+    background-image: url(/public/images/blue\ background.png);
+    text-align: center;
+    padding: 2rem;
+    
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    color: black;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: blue;
+}
+
+.next-btn {
+    background-color: midnightblue;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+

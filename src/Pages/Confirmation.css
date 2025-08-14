@@ -1,0 +1,84 @@
+
+
+
+.confirm-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* min-height: 100vh; */
+  background-color: #f5f7fa;
+  padding: 40px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(/public/images/blue\ background.png);
+}
+
+/* .confirm-page h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #222;
+} */
+
+
+/* .confirm-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px 30px;
+  
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 30px;
+} */
+
+/* .confirm-box p {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #333;
+} */
+
+/* .confirm-box strong {
+  color: #444;
+  margin-right: 5px;
+} */ */
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+}
+
+
+ .buttons button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  gap: 20px;
+  font-weight: 500;
+  
+} 
+
+.buttons button:first-child {
+  background-color: #e0e0e0;
+  color: #333;
+  
+}
+
+.buttons button:first-child:hover {
+  background-color: #d5d5d5;
+}
+
+.buttons button:last-child {
+  background-color: midnightblue;
+  color: black;
+}
+
+/* .buttons button:last-child:hover {
+  background-color: #3a9ddd;
+}   */
