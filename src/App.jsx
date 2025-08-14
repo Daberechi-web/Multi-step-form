@@ -6,7 +6,8 @@ import { Routes, Route } from 'react-router-dom'
 import Contact from './Pages/Form'
 import Confirm from './Pages/Confirmation'
 import Done from './Pages/Sucess'
-import HomePage from './Pages/home'
+import HomePage from './Pages/Temp'
+
 
 function App() {
        const [formData, setFormData] = useState({
@@ -22,7 +23,7 @@ function App() {
       
 
       <Routes>
-        <Route path='/' element = { <HomePage formData={formData} setFormData={setFormData} />} />
+        <Route path='/' element = { <HomePage  formData={formData} setFormData={setFormData} />} />
         <Route path= '/Contact' element= {<Contact formData={formData} setFormData={setFormData} />} />
         <Route path='Confirm' element = {<Confirm formData={formData}  />} />
         <Route path='Done' element= {<Done />} />
