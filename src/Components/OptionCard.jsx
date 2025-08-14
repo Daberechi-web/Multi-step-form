@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import "./OptionCard.css"; 
+import './Optioncard.css'
 
 const OptionCard = ({ option, isSelected, onSelect }) => {
   return (
